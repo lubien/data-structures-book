@@ -14,6 +14,11 @@ Files named `algorithm-*.c` are copys from the book algorithms. I'll try my best
 
 Files named `solution-*.c` are solutions as the name point.
 
+## Table of Contents
+
+- [Chapter 1](chapter-1/exercise-1.md)
+- [Chapter 2](chapter-2/exercise-1.md)
+
 ## Contributions
 
 This repo is a place for me to store my solutions so I must say that I do not accept contributions except for corrections (I'm a student myself, I expect making mistakes and if you could help my learning I'd appreciate).
