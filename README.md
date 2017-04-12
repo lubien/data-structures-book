@@ -16,8 +16,8 @@ Files named `solution-*.c` are solutions as the name point.
 
 ## Table of Contents
 
-- [Chapter 1](chapter-1/exercise-1.md)
-- [Chapter 2](chapter-2/exercise-1.md)
+- [Chapter 1](chapter-1/README.md)
+- [Chapter 2](chapter-2/README.md)
 
 ## Contributions
 
