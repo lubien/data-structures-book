@@ -29,13 +29,13 @@ node_t * merge(node_t * xs, node_t * ys) {
         ref = ys;
       else
         break;
+    } else {
+      to_add = malloc(sizeof(node_t));
+      to_add->value = ref->value;
+      results->next = to_add;
+
+      results = results->next;
     }
-
-    to_add = malloc(sizeof(node_t));
-    to_add->value = ref->value;
-    results->next = to_add;
-
-    results = results->next;
   }
 
   return head;
