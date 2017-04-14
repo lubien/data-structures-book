@@ -100,6 +100,32 @@ polynomial * merge_polynomial(polynomial * P, polynomial * Q) {
   return head;
 }
 
+polynomial * multiply_polynomial(polynomial * P, polynomial * Q) {
+  polynomial * ref;
+  polynomial * head = malloc(sizeof(polynomial));
+  polynomial * helper_head;
+  polynomial * results;
+  polynomial * to_add;
+
+  while ((Q = Q->next) != NULL) {
+    helper_head = malloc(sizeof(polynomial));
+    results = helper_head;
+
+    ref = P;
+    while ((ref = ref->next) != NULL) {
+      to_add = malloc(sizeof(polynomial));
+      to_add->degree = ref->degree + Q->degree;
+      to_add->coefficient = ref->coefficient * Q->coefficient;
+      results->next = to_add;
+      results = results->next;
+    }
+
+    head = merge_polynomial(head, helper_head);
+  }
+
+  return head;
+}
+
 int main() {
   polynomial * P = malloc(sizeof(polynomial));
   polynomial * Q = malloc(sizeof(polynomial));
@@ -126,6 +152,9 @@ int main() {
 
   printf("P(x) + Q(x) = ");
   print_polynomial(merge_polynomial(P, Q));
+
+  printf("P(x) * Q(x) = ");
+  print_polynomial(multiply_polynomial(P, Q));
 
   return 0;
 }
