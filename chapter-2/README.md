@@ -87,3 +87,23 @@ Both have they strong and weak points.
 ## 2.13
 
 [Code](solution-2-13.c)
+
+## 2.14
+
+[Code](solution-2-14.c)
+
+## 2.15
+
+[Code](solution-2-15.c)
+
+## 2.16
+
+[Code](solution-2-16.c)
+
+## 2.17
+
+[Code](solution-2-17.c)
+
+## 2.18
+
+[Code](solution-2-18.c)
