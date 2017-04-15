@@ -107,3 +107,17 @@ Both have they strong and weak points.
 ## 2.18
 
 [Code](solution-2-18.c)
+
+## 2.19
+
+Missing
+
+## 2.20
+
+[Code](solution-2-20.c)
+
+## 2.21
+
+[Code](solution-2-21.c)
+
+The complexity is O(k) where K is the number of non-zero elements.
